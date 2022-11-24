@@ -3,6 +3,7 @@ formula=$1
 version=$2
 sha=$3
 if [ "$version" == '' ] || [ "$sha" == '' ]; then
+  echo "$version == '' OR $sha == ''"
   exit
 fi
 #fetch the current version
