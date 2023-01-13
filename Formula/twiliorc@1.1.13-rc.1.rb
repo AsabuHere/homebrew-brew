@@ -1,11 +1,11 @@
 require "language/node"
 
-class Twiliorc < Formula
+class TwiliorcAT1113Rc1 < Formula
   desc "unleash the power of Twilio from your command prompt"
   homepage "https://github.com/twilio/twilio-cli"
-  url "https://twilio-cli-prod.s3.amazonaws.com/channels/rc/twilio-v6.1.4/twilio-v6.1.4.tar.gz"
-  version "6.1.4"
-  sha256 "ac568f03e3794210f068b16f1ead24ee413f9531fc45be9c3d08a404b8feb506"
+  url "https://twilio-cli-prod.s3.amazonaws.com/channels/rc/twilio-v1.1.13-rc.1/twilio-v1.1.13-rc.1.tar.gz"
+  version "1.1.13-rc.1"
+  sha256 "8789f1d314ed4bd7c7081d4424fba24fdaa897850d8691a3c78fb8ebc10f5893"
   depends_on "node"
 
   def install
